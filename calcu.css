@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+/*CSS Document*/
+
+body{
+    text-align:center;
+    background-color:#666699;
+    font-family: 'Cabin', Arial, Helvetica, sans-serif;
+    margin-top: 10%;
+}
+
+#num1, #num2{
+    background-color:transparent;
+    outline:none;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom-color:#FFF;
+    text-align:center;
+}
+
+#num2:focus-within{
+    transition:0.3s;
+    border-color: #3366ff;
+    font-size:23px;
+}
+
+#num1:focus-within{
+    transition:0.3s;
+    border-color: #3366ff;
+    font-size:23px;
+}
